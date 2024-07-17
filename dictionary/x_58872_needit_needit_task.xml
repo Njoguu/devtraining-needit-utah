@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="NeedIt Task" max_length="40" name="x_58872_needit_needit_task" type="collection">
+    <element audit="true" db_object_id="65a1e444c32b02104009921ed4013187" extends="task" label="NeedIt Task" max_length="40" name="x_58872_needit_needit_task" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Requested for email" mandatory="true" max_length="40" name="u_string_1" type="string"/>
         <element label="NeedIt" max_length="32" name="u_needit" reference="x_58872_needit_needit" type="reference"/>
     </element>
 </database>
